@@ -114,3 +114,25 @@ function signal(alart) {
 }
 const color = 'green';
 signal(color);
+
+
+// problem 16:
+
+function buyElectricsGoods(money) {
+    const buyGoods = money;
+
+    if (buyGoods >= 80000) {
+        console.log('I will buy MAC Computer.');
+    } else if (buyGoods >= 60000) {
+        console.log('I will buy Gamming Laptop.');
+    } else if (buyGoods >= 40000) {
+        console.log('I will buy Lenove yoga Computer.');
+    } else if (buyGoods >= 20000) {
+        console.log('I will buy second hand Laptop.');
+    } else {
+        console.log('I will buy a mobile and I will work that phone.');
+    }
+}
+
+const price = 66000;
+buyElectricsGoods(price)

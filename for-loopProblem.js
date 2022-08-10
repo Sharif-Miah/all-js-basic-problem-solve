@@ -13,12 +13,15 @@ while (num <= 10) {
     num++
 }
 
+// problem 14:
 let numagain = 10;
 
 while (numagain >= 0) {
     console.log(numagain, 'This olta number.');
     numagain--
 }
+
+// problem 15:
 
 for (let i = 10; i >= 0; i--) {
     console.log(i, 'For loop olta.');

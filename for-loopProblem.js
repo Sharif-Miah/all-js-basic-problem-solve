@@ -27,6 +27,8 @@ for (let i = 10; i >= 0; i--) {
     console.log(i, 'For loop olta.');
 }
 
+// problem 17:
+
 for (let i = 1; i < 40; i++) {
     console.log(i, 'Ajk amar mon valo nai.');
 }

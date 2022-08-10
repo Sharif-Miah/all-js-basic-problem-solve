@@ -1,12 +1,8 @@
 
 // problem 7:
 
-function resultGrade() {
-    const myNumer = 63;
-    const tomNumber = 66;
-    const janesNumbr = 95;
-    const peterNumber = 56;
-    const johnNumber = 40;
+function resultGrade(number) {
+    const myNumer = number;
 
     if (myNumer >= 80) {
         console.log('I get A Grade.');
@@ -22,7 +18,7 @@ function resultGrade() {
 
 }
 
-const myGrade = resultGrade();
+const myGrade = resultGrade(60);
 
 
 // problem 8: 
@@ -76,3 +72,26 @@ const sideSecond = 8;
 const sideThird = 9;
 
 triangleSide(sideFirst, sideSecond, sideThird)
+
+
+// problem 10: 
+
+function frien1(num) {
+    const aliya = num;
+
+    if (aliya >= 90) {
+        console.log('Aliya is get A+');
+    } else if (aliya >= 80) {
+        console.log('Aliya is get A');
+    } else if (aliya >= 70) {
+        console.log('Aliya is get B');
+    } else if (aliya >= 60) {
+        console.log('Aliya is get C');
+    } else if (aliya >= 50) {
+        console.log('Aliya is get D');
+    } else {
+        console.log('Aliya is Feltus girls.');
+    }
+}
+
+frien1(80);

@@ -50,3 +50,29 @@ const thirdNumber = 45;
 
 largesdNumber(firstNumber, secontNumber, thirdNumber)
 
+
+// problem 9: 
+
+function triangleSide(side1, side2, side3) {
+
+    if (side1 === side2) {
+        if (side1 === side3) {
+            console.log(side1, ' and ', side3, ' is Isosceles');
+        } else {
+            console.log(side1, ' and ', side2, ' is  Isosceles');
+        }
+    } else {
+        if (side2 === side3) {
+            console.log(side2, ' and ', side3, ' is  Isosceles');
+        } else {
+            console.log(side3, ' and ', side1, ' is  Isosceles');
+        }
+    }
+
+}
+
+const sideFirst = 9;
+const sideSecond = 8;
+const sideThird = 9;
+
+triangleSide(sideFirst, sideSecond, sideThird)

@@ -31,22 +31,22 @@ const myGrade = resultGrade();
 function largesdNumber(num1, num2, num3) {
     if (num1 > num2) {
         if (num1 > num3) {
-            console.log(num1, ' is large number.');
+            console.log(num1, ' is a large number.');
         } else {
-            console.log(num3, ' is large number.');
+            console.log(num3, ' is a large number.');
         }
     } else {
-        if (num3 > num2) {
-            console.log(num3, ' is large number');
-        } else {
+        if (num2 > num3) {
             console.log(num2, ' is large number.');
+        } else {
+            console.log(num3, ' is large number');
         }
     }
 }
 
-const firstNumber = 130;
+const firstNumber = 13;
 const secontNumber = 79;
-const thirdNumber = 450;
+const thirdNumber = 45;
 
 largesdNumber(firstNumber, secontNumber, thirdNumber)
 

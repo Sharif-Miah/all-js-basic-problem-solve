@@ -26,3 +26,7 @@ while (numagain >= 0) {
 for (let i = 10; i >= 0; i--) {
     console.log(i, 'For loop olta.');
 }
+
+for (let i = 1; i < 40; i++) {
+    console.log(i, 'Ajk amar mon valo nai.');
+}

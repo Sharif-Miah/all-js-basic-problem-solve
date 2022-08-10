@@ -95,3 +95,22 @@ function frien1(num) {
 }
 
 frien1(80);
+
+
+// problem 11:
+
+
+function signal(alart) {
+    const disition = alart;
+
+    if (disition === 'red') {
+        console.log('Do not crose the road because it is Danger zoon.');
+    } else if (disition === 'yellow') {
+        console.log('stand up side the road because it is not right time for crose the road.');
+    } else {
+        console.log('Now you crose the road beacue it is safe time for go.');
+    }
+
+}
+const color = 'green';
+signal(color);
